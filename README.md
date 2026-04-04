@@ -12,6 +12,7 @@ A warm, earthy color theme — available for Warp, macOS Terminal, Air, and VS C
 | [Terminal](https://support.apple.com/guide/terminal/welcome/mac) (macOS) | `terminal/Warm Clay.terminal` |
 | [VS Code](https://code.visualstudio.com) | `vscode/` |
 | [Air](https://air.dev) | `air/Warm-Clay-Colorized.json` |
+| [Kaku](https://kaku.sh) | `kaku/warm_clay.lua` |
 
 ---
 
@@ -37,6 +38,16 @@ A warm, earthy color theme — available for Warp, macOS Terminal, Air, and VS C
    cp air/Warm-Clay-Colorized.json ~/Library/Application\ Support/JetBrains/Air/themes/
    ```
 2. Restart Air if it is already open, then open the theme picker and select **Warm Clay**.
+
+### Kaku
+
+1. Copy the color scheme into your Kaku config (`~/.config/kaku/kaku.lua`), adding these lines before the final `return config`:
+   ```lua
+   config.color_schemes = require('/path/to/warm-clay/kaku/warm_clay.lua')
+   config.color_scheme = 'Warm Clay'
+   ```
+   Or copy the `color_schemes` block from `kaku/warm_clay.lua` directly into your config.
+2. Kaku reloads automatically on save.
 
 ### VS Code
 
