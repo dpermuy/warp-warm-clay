@@ -12,7 +12,7 @@ A warm, earthy color theme — available for Warp, macOS Terminal, Air, and VS C
 | [Terminal](https://support.apple.com/guide/terminal/welcome/mac) (macOS) | `terminal/Warm Clay.terminal` |
 | [VS Code](https://code.visualstudio.com) | `vscode/` |
 | [Air](https://air.dev) | `air/Warm-Clay-Colorized.json` |
-| [Kaku](https://kaku.sh) | `kaku/warm_clay.lua` |
+| [Kaku](https://github.com/tw93/Kaku) (macOS) | `kaku/warm_clay.lua` |
 
 ---
 
